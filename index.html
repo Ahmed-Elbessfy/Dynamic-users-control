@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- To Accept all Lnguages for the website-->
+    <meta charset="utf-8">
+    <!-- Start view and scale-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Author -->
+    <meta name="author" content="Ahmed Elbessfy">
+    <!-- Description-->
+    <meta name="description" content="Content of the website">
+    <title>Sample</title>
+    <!-- reset all values -->
+    <style>
+        main {
+            display: grid;
+        }
+
+        form {
+            display: grid;
+            justify-content: start;
+            grid-gap: 5px;
+        }
+
+        button {
+            width: 100px;
+            justify-self: center;
+        }
+
+        .users>ul {
+            border: 2px solid #333;
+            min-height: 100px;
+            padding: 20px;
+        }
+
+        li {
+            list-style: none;
+
+        }
+
+        .users>ul>li {
+            margin: 10px auto;
+            border: 2px solid #333;
+            min-height: 10px;
+            display: grid;
+            grid-template-columns: auto 200px;
+        }
+    </style>
+    <script>
+    </script>
+</head>
+
+<body>
+    <main>
+        <!--
+        <form>
+            <input type="text" id="name" placeholder="name : ">
+            <input type="text" id="phone" placeholder="Phone : ">
+            <input type="text" id="address" placeholder="Address :">
+            <button id="addUser">Add</button>
+        </form>
+-->
+        <form>
+            <input type="text" id="name" placeholder="Name : ">
+            <input type="text" id="phone" placeholder="Phone : ">
+            <input type="text" id="address" placeholder="Address : ">
+        </form>
+        <button id="addUser">Add</button>
+        <section class="users">
+            <ul>
+<!--
+                <li>
+                    <ul>
+                        <li id="Ahmed">name : Ahmed</li>
+                        <li>phone :</li>
+                        <li>Address :</li>
+                    </ul>
+                    <button id="delete">delete</button>
+                </li>
+                <li>
+                    <ul>
+                        <li id="Mohammed">name : Mohammed</li>
+                        <li>phone :</li>
+                        <li>Address :</li>
+                    </ul>
+                    <button id="delete">delete</button>
+                </li>
+                <li>
+                    <ul>
+                        <li id="Sameh">name : Sameh</li>
+                        <li>phone :</li>
+                        <li>Address :</li>
+                    </ul>
+                    <button id="delete">delete</button>
+                </li>
+                <li>
+                    <ul>
+                        <li id="Ali">name : Ali</li>
+                        <li>phone :</li>
+                        <li>Address :</li>
+                    </ul>
+                    <button id="delete">delete</button>
+                </li>
+                <li>
+                    <ul>
+                        <li id="Tito">name : Tito</li>
+                        <li>phone :</li>
+                        <li>Address :</li>
+                    </ul>
+                    <button id="delete">delete</button>
+                </li>
+                <li>
+                    <ul>
+                        <li id="tota">name : tota</li>
+                        <li>phone :</li>
+                        <li>Address :</li>
+                    </ul>
+                    <button id="delete">delete</button>
+                </li>
+-->
+            </ul>
+            <input type="text" id="searchItem" placeholder="Enter user name"><button id="searchUsers"> Search </button>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <!-- jquery -->
+    <script src="jquery-3.2.1.min.js"></script>
+    <!-- my js code-->
+    <script src="Js.js"></script>
+</body>
+
+</html>
